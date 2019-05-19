@@ -118,6 +118,9 @@ case ${target} in
     *.kmt )
         lang=scala
         ;;
+    *.cr )
+        lang=crystal
+        ;;
     * )
         lang=${target##*.}
         ;;

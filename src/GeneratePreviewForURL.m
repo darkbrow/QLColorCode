@@ -30,5 +30,5 @@ OSStatus GeneratePreviewForURL(void *thisInterface, QLPreviewRequestRef preview,
 
 void CancelPreviewGeneration(void *thisInterface, QLPreviewRequestRef preview)
 {
-        // Implement only if supported
+    // Implement only if supported
 }
